@@ -1,3 +1,8 @@
+/* customer color */
+:root {
+    --DevOpsBrown: #b76b41;
+}
+
 /* google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&display=swap');
 /* CSS Reset */
@@ -13,7 +18,7 @@ body {
 
 body {
     background-color: black;
-    color: #f4f4f4;
+    color: var(--DevOpsBrown)
 }
 
 h1 {
