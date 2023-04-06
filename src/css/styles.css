@@ -1,9 +1,21 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&display=swap');
 /* CSS Reset */
 
 body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
 }
+
 /* End of CSS Reset */
 
+body {
+    background-color: black;
+    color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+}
