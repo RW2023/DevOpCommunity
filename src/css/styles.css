@@ -201,8 +201,8 @@ label:before {
 }
 
 label.active:before {
-  left: 20px;
-  background: white;
+    left: 23px;
+    background: white;
 }
 
 body.night {
