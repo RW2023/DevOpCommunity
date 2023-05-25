@@ -1,6 +1,6 @@
 /* customer color */
 :root {
-  --DevOpsBrown: #46cfe4;
+  --DevOpsBrown: #b76b41;
 }
 
 /* google fonts */
@@ -20,18 +20,16 @@ body {
   background-color: white;
   color: var(--DevOpsBrown);
 }
-/* -----------------NavBar ----------------*/
-
-header {
-  background-color: #58cefd;
-}
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #f6c59c;
   height: 80px;
+  /* max-width: 1200px;
+    width: 100%; */
   padding: 0 20px;
-  margin-inline: 120px;
+  box-shadow: 0 0 10px var(--DevOpsBrown);
 }
 
 .nav-items {
@@ -156,7 +154,7 @@ header {
   margin: 0 10px;
   border-radius: 20px;
   border: none;
-   background-color: var(--DevOpsBrown);
+  background-color: var(--DevOpsBrown);
   color: white;
   font-size: 1rem;
 }
@@ -169,7 +167,7 @@ header {
 .dropdown-menu button:hover {
   background-color: white;
   color: var(--DevOpsBrown);
-   border: 1px solid var(--DevOpsBrown);
+  border: 1px solid var(--DevOpsBrown);
   scale: 1;
 }
 
@@ -208,7 +206,7 @@ label.active:before {
 }
 
 body.night {
-  background: #343A40;
+  background: #343a40;
   color: white;
 }
 
